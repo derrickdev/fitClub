@@ -160,3 +160,77 @@
     color: white;
     font-size: 1.5rem;
 }
+.hero-blur {
+    height: 30rem;
+    width: 22rem;
+    left: 0;
+
+}
+@media screen and (max-width :768px){
+    .hero {
+        flex-direction: column;
+    }
+    .hero-blur {
+        width: 14rem;
+    }
+    .the-best-ad {
+        margin-top: 0;
+        font-size: small;
+        align-items: center;
+        transform: scale(0.8);
+    }
+    .hero-text {
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-text>:nth-child(3) {
+        font-size: small;
+        font-weight: 200;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .hero-buttons {
+        justify-content: center;
+    }
+    .figures>div>span:nth-of-type(1) {
+        font-size: large;
+    }
+    .figures>div>span:nth-child(2) {
+        font-size: small;
+    }
+    .right-h {
+        position: relative;
+        background: none;
+    }
+    .heart-rate {
+        position: relative;
+        left: 1rem;
+        top: 2rem;
+    }
+    .calories {
+        position: relative;
+        left: 2rem;
+        top: 5rem;
+    }
+    .calories>img {
+        width: 2rem;
+    }
+    .calories>div>:nth-child(2) {
+        font-size: 1rem;
+        color: white;
+    }
+    .hero_image {
+        position: relative;
+        left: 7rem;
+        top: 4rem;
+        width: 15rem;
+        align-self: center;
+    }
+    .hero_image_back {
+        left:2rem;
+        top: -0;
+        width: 15rem;
+    }
+}
